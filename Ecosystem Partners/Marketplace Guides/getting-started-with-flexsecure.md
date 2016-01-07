@@ -64,10 +64,10 @@ A typical use case, if a developer needs to add a pin-based authentication, foll
   - Change login process to accept an email address
   - On the backend, once the email has been entered, need to run the following API command: /user/authenticate
   - This will start the authentication Process
-  - Since we configured a user to use pin-based security, once the api call is made, the user will receive a sms text message on their mobile phone, with the pin number
+  - Since we configured a user to use pin-based security, once the API call is made, the user will receive a sms text message on their mobile phone, with the pin number
   - The application needs to accept the pin no. inside the login process
 
-- Once the user submits the pin, the api call: /system/authenticate is triggered, so that the system they are trying to access, can complete the authorization process
+- Once the user submits the pin, the API call: /system/authenticate is triggered, so that the system they are trying to access, can complete the authorization process
 
 This is how easy it is to implement FlexSecure!
 
